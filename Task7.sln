@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateExistance", "DateExistance\DateExistance.csproj", "{637F5D86-245C-4539-A893-56F88DF221F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReplacer", "HtmlReplacer\HtmlReplacer.csproj", "{764411EC-4EC3-4C9B-873D-139A6780CFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailFinder", "EmailFinder\EmailFinder.csproj", "{5F95A69E-B8BC-49C4-93D6-7EE3FBC15168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberValidator", "NumberValidator\NumberValidator.csproj", "{EEB787D5-3A1E-493D-8F5E-CBB5D9C7098A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeCounter", "TimeCounter\TimeCounter.csproj", "{B459E0B9-8098-4DE3-A740-74761CE98605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{637F5D86-245C-4539-A893-56F88DF221F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637F5D86-245C-4539-A893-56F88DF221F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637F5D86-245C-4539-A893-56F88DF221F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764411EC-4EC3-4C9B-873D-139A6780CFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764411EC-4EC3-4C9B-873D-139A6780CFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764411EC-4EC3-4C9B-873D-139A6780CFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764411EC-4EC3-4C9B-873D-139A6780CFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F95A69E-B8BC-49C4-93D6-7EE3FBC15168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F95A69E-B8BC-49C4-93D6-7EE3FBC15168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F95A69E-B8BC-49C4-93D6-7EE3FBC15168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F95A69E-B8BC-49C4-93D6-7EE3FBC15168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB787D5-3A1E-493D-8F5E-CBB5D9C7098A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB787D5-3A1E-493D-8F5E-CBB5D9C7098A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB787D5-3A1E-493D-8F5E-CBB5D9C7098A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB787D5-3A1E-493D-8F5E-CBB5D9C7098A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B459E0B9-8098-4DE3-A740-74761CE98605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B459E0B9-8098-4DE3-A740-74761CE98605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B459E0B9-8098-4DE3-A740-74761CE98605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B459E0B9-8098-4DE3-A740-74761CE98605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
