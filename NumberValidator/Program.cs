@@ -14,25 +14,21 @@ namespace NumberValidator
             Console.Write("Введите число: ");
             string numberString = Console.ReadLine();
 
-            string patternCommon = @"[+-]?[0-9]+(\.[0-9]+)?";
-            string patternExp = @"[+-]?[0-9]+(\.[0-9]+)?([eE][+-]?[0-9]+)";
+            string patternCommon = @"^[+-]?[0-9]+(\.[0-9]+)?$";
+            string patternExp = @"^[+-]?[0-9]+(\.[0-9]+)?([eE][+-]?[0-9]+)$";
         
-            var commonMatches = Regex.Matches(numberString, patternCommon);
-            var expMatches = Regex.Matches(numberString, patternExp);
-
-            if (commonMatches.Count == 1 && commonMatches[0].Length == numberString.Length)
+            if (Regex.IsMatch(numberString, patternCommon))
             {
 
                 Console.WriteLine("Это число в обычной нотации");
 
             }
-            else if (expMatches.Count == 1 && expMatches[0].Length == numberString.Length)
+            else if (Regex.IsMatch(numberString, patternExp))
             {
                 Console.WriteLine("Это число в научной нотации");
             }
             else
-                Console.WriteLine("Это не число");        
-          
+                Console.WriteLine("Это не число");              
         }
     }
 }
