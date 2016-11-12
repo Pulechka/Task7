@@ -14,7 +14,7 @@ namespace EmailFinder
             Console.WriteLine("Введите строку:");
             string text = Console.ReadLine();
 
-            string pattern = @"\b[0-9a-z]([a-z0-9_.]*[0-9a-z])?@([0-9a-z]+\.)+[a-z]{2,6}\b";
+            string pattern = @"\b[0-9a-z](?:[a-z0-9_.]*[0-9a-z])?@(?:[0-9a-z]+\.)+[a-z]{2,6}\b";
             var matches = Regex.Matches(text, pattern);
             Console.WriteLine("Найденные адреса электронной почты:");
             foreach (var match in matches)

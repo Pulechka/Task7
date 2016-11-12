@@ -14,8 +14,8 @@ namespace NumberValidator
             Console.Write("Введите число: ");
             string numberString = Console.ReadLine();
 
-            string patternCommon = @"^[+-]?[0-9]+(\.[0-9]+)?$";
-            string patternExp = @"^[+-]?[0-9]+(\.[0-9]+)?([eE][+-]?[0-9]+)$";
+            string patternCommon = @"^[+-]?[0-9]+(?:\.[0-9]+)?$";
+            string patternExp = @"^[+-]?[0-9]+(?:\.[0-9]+)?(?:[eE][+-]?[0-9]+)$";
         
             if (Regex.IsMatch(numberString, patternCommon))
             {
